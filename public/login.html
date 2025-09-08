@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NeonCars - Login</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/auth.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">NeonCars</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="cars.html">Carros</a>
+        <a href="contact.html">Contato</a>
+        <a href="about.html">Sobre</a>
+        <a href="login.html" id="loginLink">Login</a>
+        <a href="register.html" id="registerLink" class="btn btn-primary">Cadastro</a>
+        <button id="logoutBtn" class="btn btn-outline" style="display:none;">Sair</button>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+    <section class="card form-card">
+      <h2>Entrar</h2>
+      <form id="loginForm" class="form">
+        <label>E-mail
+          <input type="email" name="email" required placeholder="voce@email.com" />
+        </label>
+        <label>Senha
+          <input type="password" name="password" required placeholder="Sua senha" />
+        </label>
+        <button class="btn btn-primary" type="submit">Login</button>
+        <p class="muted">Novo por aqui? <a href="register.html">Criar conta</a></p>
+      </form>
+    </section>
+    <script defer src="js/login.js"></script>
+    
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© NeonCars • Projeto didático • Feito com HTML, CSS e JavaScript</p>
+    </div>
+  </footer>
+  <script defer src="js/nav.js"></script>
+</body>
+</html>

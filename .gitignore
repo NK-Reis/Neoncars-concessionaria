@@ -1,0 +1,9 @@
+
+# Node
+node_modules/
+.env
+
+# Editor
+.vscode/
+.DS_Store
+Thumbs.db

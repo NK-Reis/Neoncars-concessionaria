@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "brand": "Toyota",
+    "model": "Corolla",
+    "year": 2021,
+    "price": 112900.0,
+    "image": "img/sedan.png",
+    "desc": "Confiável, econômico e confortável."
+  },
+  {
+    "id": 2,
+    "brand": "Jeep",
+    "model": "Compass",
+    "year": 2022,
+    "price": 154900.0,
+    "image": "img/suv.png",
+    "desc": "SUV médio com ótimo pacote de tecnologia."
+  },
+  {
+    "id": 3,
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "year": 2020,
+    "price": 84900.0,
+    "image": "img/hatch.png",
+    "desc": "Hatch ágil para o dia a dia."
+  },
+  {
+    "id": 4,
+    "brand": "Honda",
+    "model": "Civic",
+    "year": 2019,
+    "price": 98900.0,
+    "image": "img/sedan.png",
+    "desc": "Sedã com pegada esportiva e conforto."
+  },
+  {
+    "id": 5,
+    "brand": "Chevrolet",
+    "model": "Tracker",
+    "year": 2023,
+    "price": 132500.0,
+    "image": "img/suv.png",
+    "desc": "SUV compacto moderno e eficiente."
+  }
+]
